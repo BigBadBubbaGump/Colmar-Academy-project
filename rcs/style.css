@@ -462,8 +462,45 @@ footer {
   width:100%
 }
 
+.course-button {
+  display: inline-block;
+  text-align: left;
+  width: 90%;
+  padding: 1rem 0 1.5rem 1rem;
+  margin-left: 1rem;
+  margin-top:1rem;
+  background-color: #dddddd;
+  text-decoration: none;
+  color:black;
+  font-size: 1.6rem;
+  font-weight: 700;
+  border-radius: 4px;
+  transition: 200ms ease;
+
+}
+
+.course-button:hover {
+  color: #333333;
+  background-color: #bbbbbb;
+  border-color: white;
+}
+
+.course-button:active {
+  color: #333333;
+  background-color: #444444;
+  border-color: black;
+}
+
+
 .container-mobile img {
   width:100%;
+}
+
+.container-mobile h2 {
+  text-align: center;
+  padding-top: 2rem;
+  margin-bottom: 1rem;
+  border-top: 1px solid #dddddd;
 }
 
 .info-container {
@@ -489,6 +526,7 @@ footer {
   margin-top:.5rem;
   margin-bottom: .5rem;
 }
+
 
 
 
