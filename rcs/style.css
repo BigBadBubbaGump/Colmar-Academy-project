@@ -334,13 +334,22 @@ footer {
 .container-mobile {
 
   visibility: hidden;
-  position: relative;
+  position: absolute;
 }
 
 
-@media only screen and (max-width:960px) {
+@media only screen and (max-width:1024px) {
 
 .nav-bar-desktop-container {
+  visibility: hidden;
+  position: absolute;
+}
+
+.footer-nav-bar {
+  visibility: hidden;
+  position: absolute;
+}
+.copyright {
   visibility: hidden;
   position: absolute;
 }
@@ -372,7 +381,6 @@ footer {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   background-color: white;
-
 }
 
 .menu-mobile img {
@@ -385,6 +393,7 @@ footer {
   width: 100%;
   height:auto;
   background-color: #dddddd;
+  margin-bottom:1rem;
   }
 
 .banner-mobile img {
@@ -450,11 +459,37 @@ footer {
 .container-mobile {
   visibility: visible;
   position: relative;
+  width:100%
 }
 
 .container-mobile img {
   width:100%;
 }
+
+.info-container {
+  display: block;
+  width:98%;
+  border-width: 0px;
+}
+
+.info-container img {
+  width: 98%;
+}
+
+.info-box {
+  display:block;
+  width:100%;
+}
+.info-box a,
+.info-box p {
+  margin-left: 1rem;
+}
+
+.info-box p {
+  margin-top:.5rem;
+  margin-bottom: .5rem;
+}
+
 
 
 }
