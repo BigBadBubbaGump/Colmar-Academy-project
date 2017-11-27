@@ -507,7 +507,7 @@ transition: 200ms ease;
 .course-button {
   display: inline-block;
   text-align: left;
-  width: 90%;
+  width: 95%;
   padding: 1rem 0 1.5rem 1rem;
   margin-left: 1rem;
   margin-top:1rem;
@@ -516,7 +516,7 @@ transition: 200ms ease;
   color:black;
   font-size: 1.6rem;
   font-weight: 700;
-  border-radius: 4px;
+  border-radius: 6px;
   -webkit-transition: 200ms ease;
 transition: 200ms ease;
 
@@ -530,7 +530,7 @@ transition: 200ms ease;
 
 .course-button:active {
   color: #333333;
-  background-color: #444444;
+  background-color: #ffffff;
   border-color: black;
 }
 
