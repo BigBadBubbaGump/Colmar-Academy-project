@@ -42,7 +42,7 @@ header {
   z-index: 50;
 }
 
-.nav-bar-desktop-container {
+.menu-desktop {
   visibility: visible;
   display: flex;
   justify-content: space-between;
@@ -54,10 +54,9 @@ header {
 
 
 .logo {
-
   display:flex;
   align-items: center;
-  width: 30%;
+  height: auto;
 }
 
 .logo img {
@@ -65,17 +64,15 @@ header {
   margin: 1rem 0;
   height:2rem;
   width:auto;
-
 }
 
 .logo p {
   display: inline-block;
   font-family: verdana, sans-serif;
-  font-size: 1.33rem;
+  font-size: 1.75rem;
   margin: 0;
   color:gray;
   font-weight: 400;
-
 }
 
 .logo p span {
@@ -340,6 +337,7 @@ footer p {
 .container-mobile {
   visibility: hidden;
   position: absolute;
+
 }
 
 .menu-mobile {
@@ -350,6 +348,7 @@ footer p {
 .banner-mobile {
   visibility: hidden;
   position: absolute;
+
 }
 
 @media only screen and (max-width:1024px) {
@@ -364,30 +363,40 @@ footer p {
     text-align: left;
   }
 
-.menu-desktop {
+.main-menu {
   visibility: hidden;
   position: absolute;
+  display:none;
+
 }
 
 .nav-bar-desktop-container {
   visibility: hidden;
   position: absolute;
+  display:none;
+
 }
 
 .footer-nav-bar {
   visibility: hidden;
   position: absolute;
+  display:none;
+
 }
 
 
 .banner-desktop {
   visibility: hidden;
   position: absolute;
+  display:none;
+
 }
 
 .container-desktop {
   visibility: hidden;
   position: absolute;
+  display:none;
+
 }
 
 
