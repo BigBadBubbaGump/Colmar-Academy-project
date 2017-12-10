@@ -7,6 +7,7 @@
 <title>Welcome to Colmar Academy</title>
 
 <link href="rcs/css/reset.css" type="text/css" rel="stylesheet">
+<link href="rcs/css/bootstrap.min.css" type="text/css" rel="stylesheet">
 <link href="rcs/css/style.css" type="text/css" rel="stylesheet">
 <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -15,21 +16,21 @@
 
 <body>
 <header>
-  <div class="nav-bar-desktop-container">
+  <div class="menu-desktop">
 
   <div class="logo">
     <img src="rcs/images/ic-logo.svg" alt="">
     <p><span>COLMAR</span>ACADEMY</p>
   </div>
 
-  <nav class="menu-desktop">
+
     <ul>
       <li><a href="#">On Campus</a></li>
       <li><a href="#">Online</a></li>
       <li><a href="#">For Companies</a></li>
       <li><a href="#">Sign In</a></li>
     </ul>
-  </nav>
+
 
 </div>
 
@@ -208,12 +209,47 @@
 
   <div class="container-mobile">
     <h2>Start learning</h2>
-    <a class="course-button" href="#">Software engineering</a>
-    <a class="course-button" href="#">Computer art</a>
-    <a class="course-button" href="#">Design</a>
-    <a class="course-button" href="#">Data</a>
-    <a class="course-button" href="#">Business</a>
-    <a class="course-button" href="#">Marketing</a>
+
+    <div id="flip1" class="btn btn-block btn-default"><h3>Software engineering</h3></div>
+      <div id="panel1"><img src="rcs/images/course-software.jpg">
+        <h3>Software engineering</h3>
+        <h5>COURSES</h5>
+        <h4>Web Development, Mobile Development,iOT, APIs</h4>
+      </div>
+
+    <div id="flip2" class="btn btn-block btn-default"><h3>Computer art</h3></div>
+    <div id="panel2"><img src="rcs/images/course-computer-art.jpg">
+      <h3>Computer Art</h3>
+      <h5>COURSES</h5>
+      <h4>Imaging and design, Web Design, Motion Graphics & Visual Effects</h4></div>
+
+    <div id="flip3" class="btn btn-block btn-default"><h3>Design</a></div>
+    <div id="panel3"><img src="rcs/images/course-design.jpg">
+      <h3>Design</h3>
+      <h5>COURSES</h5>
+      <h4>User Experience Design, User Research, Visual Design</h4>
+    </div>
+
+    <div id="flip4" class="btn btn-block btn-default"><h3>Data</a></div>
+    <div id="panel4"><img src="rcs/images/course-data.jpg">
+      <h3>Data</h3>
+      <h5>COURSES</h5>
+      <h4>Data Science, Big Data, SQL, Data Visualization</h4></div>
+
+    <div id="flip5" class="btn btn-block btn-default"><h3>Business</a></div>
+    <div id="panel5"><img src="rcs/images/course-business.jpg">
+      <h3>Business</h3>
+      <h5>COURSES</h5>
+      <h4>Product Development, Business Development, Startup</h4>
+    </div>
+
+    <div id="flip6" class="btn btn-block btn-default"><h3>Marketing</h3></div>
+    <div id="panel6"><img src="rcs/images/course-marketing.jpg">
+      <h3>Marketing</h3>
+      <h5>COURSES</h5>
+      <h4>Analytics, Content Marketing, Mobile Marketing</h4>
+
+    </div>
   </div>
 
 
@@ -260,11 +296,7 @@
 
 <footer>
     <p>© 2016 Colmar Academy. All rights reserved</p>
-      <i class="fa fa-twitter fa-2x"></i>
-      <i class="fa fa-facebook fa-2x"></i>
-      <i class="fa fa-pinterest fa-2x"></i>
-      <i class="fa fa-google fa-2x"></i>
-      <i class="fa fa-instagram fa-2x"></i>
+
     <div class="footer-nav-bar">
       <a href="#">Terms</a> <a href="#">Privacy</a>
     </div>
@@ -272,6 +304,11 @@
 
 
 
+<script src="rcs/js/jquery.min.js"></script>
 
+<script src="rcs/js/bootstrap.min.js"></script>
+<script src="rcs/js/main.js"></script>
+
+</script>
 </body>
 </html>
